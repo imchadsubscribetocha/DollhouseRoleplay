@@ -1,4 +1,0 @@
-player =  "swueno"
-fakemsg = "Farts cutely*"
-message = "                                                                                                                                                   ["..tostring(player).."]: "..tostring(fakemsg)
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
